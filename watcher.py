@@ -1,7 +1,7 @@
 import os
-from tabulate import tabulate
 import psutil
 import smtplib
+from tabulate import tabulate
 from email.mime.text import MIMEText
 
 disk_usage = os.popen("df --output=avail -m / | awk 'NR==2 {print $1}'").read().strip()
