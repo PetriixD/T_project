@@ -2,7 +2,8 @@
 
 My academy project for monitoring of basic information about various things in linux
 
-Dependencies
+# Dependencies
+
 
 pip3 utilities
 ```
