@@ -4,8 +4,6 @@ import psutil
 import smtplib
 from email.mime.text import MIMEText
 
-tabulate.PRESERVE_WHITESPACE = True
-
 disk_usage = os.popen("df --output=avail -m / | awk 'NR==2 {print $1}'").read().strip()
 
 process_count = os.popen("ps -A | wc -l").read().strip()
