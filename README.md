@@ -2,6 +2,11 @@
 
 My academy project for monitoring of basic information about various things in linux
 
+# Crontab job command
+```
+crontab -u username crontab.txt
+```
+
 # Dependencies
 
 
