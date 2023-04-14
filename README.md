@@ -15,10 +15,6 @@ pip3 utilities
 yum install python3-pip
 ```
 
-watchdog
-```bash
-pip install watchdog
-```
 tabulate
 ```bash
 pip install tabulate
