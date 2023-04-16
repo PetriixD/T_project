@@ -1,10 +1,10 @@
 # Academy_project_watcher.py
 
-My academy project for monitoring of basic information about various things in linux
+My academy project for monitoring of basic information about various things in RedHat linux
 
 # Crontab job command
 ```
-crontab -u username crontab.txt
+crontab /path/to/file/crontab.txt
 ```
 
 # Dependencies
