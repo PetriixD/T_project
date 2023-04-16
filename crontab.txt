@@ -1,1 +1,1 @@
-0 * * * * /home/peter/watcher.py
+0 * * * * python /home/ptrx/project/watcher.py
